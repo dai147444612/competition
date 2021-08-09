@@ -1,0 +1,15 @@
+server:
+  servlet:
+    context-path: /LookHere
+  port: 9099
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://47.110.55.173:3306/competition
+    username: root
+    password: Dai20020117.
+  redis:
+    host: 47.110.55.173
+    port: 6379
+mybatis-plus:
+  mapper-locations: classpath*:/mapper/*.xml
